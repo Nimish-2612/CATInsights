@@ -1,0 +1,40 @@
+:root {
+  --color1: #03bcf4;
+  --color2: #fff;
+  --size: 200px;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#hero {
+  height: 800px;
+  background-image: url(/Images/sindy-sussengut-TIrwwuVr0Ys-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* #hero-content {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(227, 217, 33);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  background-color: rgba(81, 71, 71, 0.6);
+
+/* } */
+
+.quarter-circle {
+  text-align: left;
+  font-family: "Poppins", "sans-serif";
+  width: 50rem;
+  height: 50rem;
+  background: rgba(81, 71, 71, 0.6);
+  border-top-right-radius: 50rem;
+  position: relative;
+  top: 200px;
+}
+
+
